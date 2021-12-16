@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(14, 13, 13);
+    overflow-y: hidden /* hide the scroll bar */
+}
+
+.n-logo /* the netflix logo block */{
+    height: 11em;
+    width: auto;
+    margin-top: .5em;
+    margin-left: 38.8em;
+    margin-bottom: 10em;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="4- payment.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Netflix | Payment</title>
+</head>
+<script>
+$(document).ready(function(){
+    $('.paypal').click(function(){
+        $('.box').animate({ width: '12em', marginLeft:'16.7em' }, 120);
+    });
+    $('.credit').click(function(){
+        $('.box').animate({ width: '20em', marginLeft:'-6em' }, 120);
+    });
+});
+</script>
+<body>
+    <!-- netflix logo   --><img class='n-logo' src="https://th.bing.com/th/id/R.99730d10b40801dc93178989782d52b9?rik=nhhnWBiNmEpMcw&riu=http%3a%2f%2fwhatchareading.com%2fwp-content%2fuploads%2f2015%2f01%2fNetflix_Logo_Digital-Video.png&ehk=f6eIZgGvyOgq2XXQI0CDsDIcgu5bypvy0Dedqk%2fiEGk%3d&risl=&pid=ImgRaw&r=0" alt="netflix logo">
+    <!-- block image    --><img class='poster' src="https://cdn.simplesite.com/i/02/9e/282319406287199746/i282319414706845830._szw1280h1280_.jpg" alt="poster">
+    <!-- Header -->        <h1>Payment</h1>
+    <!-- Switch bar -->    <section class="switch-bar">
+    <!-- Credit Subhead -->      <p class="credit">Credit / Debit Card</p>
+    <!-- Credit Icon -->         <img class="credit-icon" src="https://img.icons8.com/ios/50/ffffff/bank-card-back-side.png"/>       
+    <!-- Seperating Bar -->      <div class="stick"></div>
+    <!-- PayPal Subhead -->      <p class="paypal">PayPal</p>
+    <!-- PayPal Icon -->         <img class="paypal-icon" src="https://img.icons8.com/ios/50/ffffff/paypal.png"/>
+    <!-- Back selected box -->   <div class='box'></div>
+                            </section>
+    <!-- login button   --><div class="login-div" id="login"><a href="5- prefrences.html" class="login" id='login.'>SUBMIT THE INFORMATION</a></div>
+</body>
+</html>

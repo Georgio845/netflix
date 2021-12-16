@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(14, 13, 13);
+    margin-left: -4em;
+    overflow-y: hidden /* hide the scroll bar */
+}
+
+.n-logo /* the netflix logo block */{
+    height: 11em;
+    width: auto;
+    margin-top: .5em;
+    margin-left: 30%;
+    margin-bottom: 10em;
+}
+
+.pass, .uname /* inputs */{
+    height: 2.5em;
+    width: 25em;
+    margin: 0;
+    padding-left: .8em;
+    
+}
+
+.uname /* username input */{
+    margin-left: -24.5em;
+    margin-bottom: 1.5em;
+}
+
+.pass /* password input */{
+    margin-left: 29.5%;
+}
+
+.login /* login button text */{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-div /* login button styling */{
+    background-color: #e50914;
+    width: 8.5em;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    margin-left: 37%;
+    margin-top: 2em;
+    border-style: solid;
+    border-color: #e50914;
+    margin-bottom: 1em;
+}
+
+.login-div:hover /* on hover of the login button */{
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.poster /* image block of movie posters at the right */{
+    float: right;
+    height: 60em;
+    width: auto;
+    margin-top: -34em;
+}
+
+.signup {
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 36.5%;
+}

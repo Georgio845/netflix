@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(14, 13, 13);
+    margin-left: -4em;
+    overflow-y: hidden /* hide the scroll bar */
+}
+
+.n-logo /* the netflix logo block */{
+    height: 5em;
+    width: auto;
+    margin-top: 0em;
+    margin-left: 6em;
+    margin-bottom: 10em;
+}
+
+.poster /* image block of movie posters at the right */{
+    float: right;
+    height: 50em;
+    width: auto;
+    margin-top: 2em;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 3em;
+    margin-top: -2em;
+    margin-bottom: 6em;
+    font-size: 3em;
+}
+
+form {
+    margin-left: 10em;
+}
+
+select.mySelect{
+    background: whitesmoke;
+    color: rgb(14, 13, 13);
+    padding: 0 10px;
+    font-size: 1em;
+}
+select.mySelect option{
+	
+    color: black;
+    padding: 0 10px;
+}
